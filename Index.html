@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Fashion Studio | Diseña tu Ropa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>AI FASHION STUDIO</h1>
+        <p>Crea, edita y perfecciona tu estilo con Inteligencia Artificial</p>
+    </header>
+
+    <main class="container">
+        <section class="preview-container">
+            <div id="canvas-3d">
+                <p>Cargando modelo 3D...</p>
+                </div>
+        </section>
+
+        <section class="controls">
+            <h2>Panel de Diseño</h2>
+            
+            <div class="control-group">
+                <label>Color de Prenda:</label>
+                <input type="color" id="colorPicker" value="#ffffff">
+            </div>
+
+            <div class="control-group">
+                <label>Mejorar trazo con IA:</label>
+                <button class="btn-ia">Optimizar Dibujo ✨</button>
+            </div>
+
+            <div class="control-group">
+                <label>Plantillas:</label>
+                <select>
+                    <option>Sudadera Oversize</option>
+                    <option>Camiseta Basic</option>
+                    <option>Gorra Streetwear</option>
+                </select>
+            </div>
+            
+            <button class="btn-save">Guardar Diseño</button>
+        </section>
+    </main>
+</body>
+</html>
